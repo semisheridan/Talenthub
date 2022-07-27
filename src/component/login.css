@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   .container{
+    background:  linear-gradient(135deg, #F47451
+    , rgb(223, 154, 94)
+    );
+    width:600px;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    border-radius: 20px;
+    margin-left: 225px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(59, 58, 58, 0.47);
+   }
+   .app-wrapper{
+    background-color: #fff;
+    min-height: 650px;
+    min-width: 380px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 490px;
+   }
+   .title{
+    color:  #F47451 ;
+    text-align: center;
+    margin: 60px 0px 20px 0px;
+   }
+   .name,
+   .email,
+   .password,
+   .confirm-password{
+    margin: 20px;
+    color: #969292;
+    font-size:16px;
+   }
+   .password{
+    margin-bottom: 40px;
+   }
+   .input{
+    height: 32px;
+    font-size: 20px;
+    outline:none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style: none;
+    border-bottom-style: 2px solid black;
+    margin-bottom:10px;
+   }
+   .error{
+    color: rgb(206, 60, 60);
+   }
+   .submit{
+    display:flex;
+    text-transform: uppercase;
+    font-size:15px;
+    border-radius: 25px;
+    color:white;
+    padding: 10px 60px;
+    background: linear-gradient(135deg, #F47451
+    , rgb(223, 154, 94)
+    );
+    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px , rgba(0,0,0,0.22) 0px 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+   }
+   .submit1{
+    display:flex;
+    
+    font-size:14px;
+    
+    color:rgb(46, 44, 44);
+    padding: 12px 60px;
+    color: #969292;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+   }
+   .submit1 a{
+    color: #F47451;
+    text-decoration: none;
+    margin-left: 10px;
+   }
+   button:active{
+    transform: translateY(2px);
+   }
+   .form-success{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+    color: #f80759;
+  
+   }
